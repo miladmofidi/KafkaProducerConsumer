@@ -1,9 +1,11 @@
 # Kafka Producer Consumer in Spring
 ## This is a simple Kafka Producer and Consumer implementation in Spring
 
-To get familiar with Kafka you can install Kafka using Docker, I have prepared a Kafka docker-compose file following for you to be able to install Docker and use it in the application :
+- To install Kafka on your local machine and get familiar with Kafka you can install Kafka adn Zookeeper using Docker, if you have not installed Docker you can use this link [Docker Desktop](https://docs.docker.com/desktop/).
+- After installing Kafka, you need create and run your Kafka instance using this command  `docker-compose up -d` in the path which `docker-compose.yml` file exist, the `docker-compose.yml` file added below.
+- I have prepared a Kafka docker-compose file following for you to be able to create and run Kafka and use it in the application :
 
-docker-compose.yml
+**docker-compose.yml** file:
 ```
 version: '2'
 services:
@@ -31,4 +33,4 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT 
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1 
 ```
-
+- After cloning and running the application you can test Kafka producer and consumer by calling the `http://localhost:8080/send?message=Hi World!` endpoint, you will see Kafka producer and consumer data on the console if everything is ok :) .
