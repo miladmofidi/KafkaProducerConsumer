@@ -1,0 +1,5 @@
+app:
+  kafka:
+    topic:
+      name: myTopic
+    groupId: my-group-id
