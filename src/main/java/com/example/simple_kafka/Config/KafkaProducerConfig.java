@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Milad Mofidi (milad.mofidi@cmas-systems.com)
+ * @author Milad Mofidi (milad.mofidi@gmail.com)
  * 8/7/2024
  */
 @Configuration

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Milad Mofidi (milad.mofidi@cmas-systems.com)
+ * @author Milad Mofidi (milad.mofidi@gmail.com)
  * 8/7/2024
  */
 @RestController
